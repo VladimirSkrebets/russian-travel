@@ -1,7 +1,7 @@
 # Путешествия по России
 ------
 
-## ccылка на проект
+## Ccылка на проект
 https://vladimirskrebets.github.io/russian-travel/index.html
 
 ## Описание
