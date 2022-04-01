@@ -6,7 +6,6 @@
 	margin: 0;
 	padding: 0;
 	margin-top: 92px;
-
 }
 
 @media (min-width: 426px) and (max-width: 768px) {
@@ -14,7 +13,7 @@
 		margin-top: 88px;
 		font-size: 7vw;
 		line-height: 7.5vw;
-	}	
+	}
 }
 
 @media (max-width: 426px) {
@@ -24,4 +23,3 @@
 		line-height: 1.09;
 	}
 }
-

@@ -1,6 +1,6 @@
 .cover__overlay {
 	text-decoration: none;
-	padding-top: 62.5%;
+	min-height: 740px;
   max-width: 100%;
 	display: flex;
   flex-direction: column;
@@ -28,4 +28,28 @@
 
 .cover__overlay:hover::before  {
   opacity: .8;
+}
+
+@media (max-width: 1280px) {
+  .cover__overlay {
+    min-height: calc(100vw * 740 / 1184);
+  }
+}
+
+@media (max-width: 1024px) {
+  .cover__overlay {
+    min-height: calc(100vw * 640 / 1024);
+  }
+}
+
+@media (max-width: 768px) {
+  .cover__overlay {
+    min-height: calc(100vw * 480 / 768);
+  }
+}
+
+@media (max-width: 320px) {
+  .cover__overlay {
+    min-height: calc(100vw * 200 / 320);
+  }
 }
