@@ -1,25 +1,26 @@
 .intro__title {
-	font-weight: 900;
-	font-size: 54px;
-	line-height: 1.07;
-	color: #FFFFFF;
-	margin: 0;
-	padding: 0;
-	margin-top: 92px;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 1.07;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+  margin-top: 92px;
 }
 
 @media (min-width: 426px) and (max-width: 768px) {
-	.intro__title {
-		margin-top: 88px;
-		font-size: 7vw;
-		line-height: 7.5vw;
-	}
+  .intro__title {
+    margin-top: 88px;
+    font-size: 7vw;
+    line-height: 7.5vw;
+  }
 }
 
 @media (max-width: 426px) {
-	.intro__title {
-		margin-top: 64px;
-		font-size: 32px;
-		line-height: 1.09;
-	}
+  .intro__title {
+    margin-top: 64px;
+    font-size: 32px;
+    line-height: 1.09;
+    max-width: 250px;
+  }
 }
